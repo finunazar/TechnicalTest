@@ -23,7 +23,7 @@ VALUES ('TWY-1', 'X')
 
 SELECT 
 	P.Part_Group, 
-	SUM(OL.Order_Qty) AS TOTAL_QTY, 
+	SUM(OL.Order_Qty) AS Total_Qty, 
 	SUM(OL.Order_Qty*(OL.Unit_Price-OL.Unit_Cost)) AS Total_Profits
 FROM OrderLines OL 
 INNER JOIN OrderHeader OH
