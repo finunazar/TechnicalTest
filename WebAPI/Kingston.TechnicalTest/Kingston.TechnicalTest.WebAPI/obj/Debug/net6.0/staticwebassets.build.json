@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JyuRuORVFASuideHii3qh7zFZ0G/BDg0RJ84yd5V0EE=",
+  "Source": "Kingston.TechnicalTest.WebAPI",
+  "BasePath": "_content/Kingston.TechnicalTest.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

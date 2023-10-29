@@ -1,0 +1,109 @@
+<div class="bg-img">
+<br/>
+<div>
+    <br/>
+<br/>
+<br/>
+<div class="card mx-auto text-center" style="width: 50%;background-color: #e6ffff;" *ngIf="!displayFlag">
+    <div class="card-header" >
+        Prime, Fibonacci And Random Values Generator
+    </div>
+    <div class="card-body">
+      <p class="card-text"> Input value for X, Y, Choose either Prime Number, Fibonacci Number or Random Characters and hit "Generate List"</p>
+      <a (click)="nextCard()" class="btn btn-primary" style="color: white;">Continue</a>
+    </div>
+  </div>
+</div>
+<div id="formContent"  *ngIf="displayFlag">
+    <form (ngSubmit)="generateList()" #searchForm="ngForm">
+        <div class="card mx-auto text-center" style="width: 50%;background-color: #e6ffff;">
+            <div class="card-header">
+                Prime, Fibonacci And Random Values Generator
+            </div>   
+            <br/>  
+            <div class="card-body">
+        
+            <div class="row">
+                <div class="col-md-1"></div>
+                
+                <div class="col-md-10">
+                    <div class="form-group">
+                        <label for="xdata"><b>X</b></label>
+                        <br />
+                        <input type="number" class="form-control" id="xdata" min=1 placeholder="Enter X"  name="x_value" [(ngModel)]="x_val" #xdata="ngModel" required>
+                        <div *ngIf="xdata?.dirty && xdata?.touched && xdata?.invalid">
+                            <div class="text-error text-danger" *ngIf="xdata?.errors?.['required']" ><strong>X Required</strong></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1"></div>
+                
+                <div class="col-md-10">
+                    <div class="form-group">
+                        <label for="ydata"><b>Y</b></label>
+                        <br />
+                        <input type="number" class="form-control" id="ydata" min=1 placeholder="Enter Y"  name="y_value" [(ngModel)]="y_val" #ydata="ngModel" required>
+                        <div *ngIf="ydata?.dirty && ydata?.touched && ydata?.invalid">
+                            <div class="text-error text-danger" *ngIf="ydata?.errors?.['required']" ><strong>Y Required</strong></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1"></div>                
+                <div class="col-md-10">
+                    <div class="form-group">
+                        <label for="optionData"><b>Options</b></label>
+                        <br />
+                        <select style="width: 100%;height: 34px;margin-top: 1px;" id="optionData" name="option" [(ngModel)]="selectedOption" #optionData="ngModel" required> 
+                           <option *ngFor="let option of numberAndRandomOptions" [value]="option"> 
+                                {{option}} 
+                            </option> 
+                        </select> 
+                        <div *ngIf="optionData?.dirty && optionData?.touched && optionData?.invalid">
+                            <div class="text-error text-danger" *ngIf="optionData?.errors?.['required']" ><strong>Search Engine Required</strong></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 mx-auto" style="text-align: center">
+                    <button type="submit"  class="btn btn-primary btn-lg mt-2 mx-auto" style="width:40%;" [disabled]="!searchForm.valid" >Generate List</button>
+                </div>
+                <div class="col-md-2"></div>
+            </div> 
+            <br/>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row" *ngIf="flagFailure">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 mx-auto alert alert-danger" style="text-align: center">
+                     <strong>{{msg}}</strong> 
+                </div>
+                <div class="col-md-2"></div>
+            </div> 
+            <br/>
+            <br/>
+        </div>
+    </div>
+    </form> 
+    <div class="overlay" *ngIf="flagSuccess">
+        <div class="popup">
+            <h2><strong>{{selectedOption}} List :</strong></h2>
+            <a class="close" (click)="flagSuccess = false;flagFailure = false">&times;</a>
+            <div class="content alert alert-success" *ngIf="flagSuccess">
+                <span>{{response}}</span>
+                 </div>
+        </div>
+    </div>
+    </div>
+ 
+</div>

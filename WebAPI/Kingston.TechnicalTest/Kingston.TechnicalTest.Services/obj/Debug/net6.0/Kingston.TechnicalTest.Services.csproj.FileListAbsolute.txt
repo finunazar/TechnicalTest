@@ -1,0 +1,12 @@
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\bin\Debug\net6.0\Kingston.TechnicalTest.Services.deps.json
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\bin\Debug\net6.0\Kingston.TechnicalTest.Services.dll
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\bin\Debug\net6.0\Kingston.TechnicalTest.Services.pdb
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\obj\Debug\net6.0\Kingston.TechnicalTest.Services.csproj.AssemblyReference.cache
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\obj\Debug\net6.0\Kingston.TechnicalTest.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\obj\Debug\net6.0\Kingston.TechnicalTest.Services.AssemblyInfoInputs.cache
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\obj\Debug\net6.0\Kingston.TechnicalTest.Services.AssemblyInfo.cs
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\obj\Debug\net6.0\Kingston.TechnicalTest.Services.csproj.CoreCompileInputs.cache
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\obj\Debug\net6.0\Kingston.TechnicalTest.Services.dll
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\obj\Debug\net6.0\refint\Kingston.TechnicalTest.Services.dll
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\obj\Debug\net6.0\Kingston.TechnicalTest.Services.pdb
+C:\Users\finun\OneDrive\Desktop\TechnicalTest\WebAPI\Kingston.TechnicalTest\Kingston.TechnicalTest.Services\obj\Debug\net6.0\ref\Kingston.TechnicalTest.Services.dll
