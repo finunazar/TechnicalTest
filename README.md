@@ -20,19 +20,19 @@ npm install
 ```
 ## Screenshots
 
-<img width="960" alt="image" src="https://github.com/finunazar/TechnicalTest/assets/138601519/4d6b9b75-c28a-437f-9568-8806630317bc">
+![image](https://github.com/finunazar/TechnicalTest/assets/138601519/06bf37d9-7ff4-4f49-9c65-95890c93b3e5)
 
-<img width="960" alt="image" src="https://github.com/finunazar/TechnicalTest/assets/138601519/eb9db252-53cd-44a2-b5bd-35e007d35747">
+![image](https://github.com/finunazar/TechnicalTest/assets/138601519/4289c7ba-b53b-4f03-932b-33a62b1df4e9)
 
 ### Prime Numbers
 
-<img width="960" alt="image" src="https://github.com/finunazar/TechnicalTest/assets/138601519/763895c9-0286-42b3-9ec7-2ef120af7b5b">
+![image](https://github.com/finunazar/TechnicalTest/assets/138601519/becf2fb2-4a20-43ad-9cc7-116d7aee97df)
 
 ### Fibonacci Numbers
 
-<img width="960" alt="image" src="https://github.com/finunazar/TechnicalTest/assets/138601519/064a8cbb-7b29-4659-8e55-c15cd45f70b7">
+![image](https://github.com/finunazar/TechnicalTest/assets/138601519/e6c152be-b807-45a1-a3c0-ed1012228587)
 
 ### Random Characters
 
-<img width="960" alt="image" src="https://github.com/finunazar/TechnicalTest/assets/138601519/aab7b0e2-130b-4655-952a-ddaa31afa099">
+![image](https://github.com/finunazar/TechnicalTest/assets/138601519/db0a340e-07b6-4f0b-8d5b-40b273802715)
 
